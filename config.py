@@ -13,7 +13,7 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/4kwe69.jpg")
+    START_PIC   = os.environ.get("START_PIC", "https://i.rj1.dev/KhfVL.png")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '8367080346').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003448988619"))
@@ -87,6 +87,7 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
     HELP_TXT = """<b>Hey</b> {}
     
 Here Is The Help For My Commands."""
+
 
 
 
