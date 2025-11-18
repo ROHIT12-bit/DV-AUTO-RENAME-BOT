@@ -14,7 +14,7 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://i.rj1.dev/KhfVL.png")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '8367080346').split()]
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1576657217').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003448988619"))
     
@@ -35,7 +35,7 @@ class Txt(object):
     
 ➻ Use /tutorial Command To Know How To Use Me.
     
-<b>Bot Is Made By @Funnytamilan</b></blockquote>"""
+<b>Bot Is Made By @Miracle_Botz</b></blockquote>"""
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
 
@@ -44,7 +44,7 @@ Use These Keywords To Setup Custom File Name
 ✓ episode :- To Replace Episode Number
 ✓ quality :- To Replace Video Resolution
 
-<b>➻ Example :</b> <code> /autorename One Piece S01 - EPepisode - quality  [Dual Audio] - @Funnytamilan </code>
+<b>➻ Example :</b> <code> /autorename One Piece S01 - EPepisode - quality  [Dual Audio] - @Miracle_Botz </code>
 
 <b>➻ Your Current Auto Rename Format :</b> <code>{format_template}</code> """
     
@@ -52,7 +52,7 @@ Use These Keywords To Setup Custom File Name
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Botskingdoms'>Network</a>
+<b>📢 Channel :</b> <a href='https://t.me/Miracle_Botz'>Network</a>
 <b>🧑‍💻 Developer :</b> <a href='https://t.me/Funnytamilan'>TFC Lord Funny King</a>
     
 <b>♻️ Bot Made By :</b> @Funnytamilan"""
@@ -87,6 +87,7 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
     HELP_TXT = """<b>Hey</b> {}
     
 Here Is The Help For My Commands."""
+
 
 
 
