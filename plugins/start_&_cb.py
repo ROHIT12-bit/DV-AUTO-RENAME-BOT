@@ -13,15 +13,15 @@ async def start(client, message):
     
     button = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton('📢 Updates', url='https://t.me/net_pro_max'),
-            InlineKeyboardButton('💬 Support', url='https://t.me/+cXIPgHSuJnxiNjU1')
+            InlineKeyboardButton('📢 Updates', url='https://t.me/+z0nFJU_bEZ85YTFl'),
+            InlineKeyboardButton('💬 Support', url='https://t.me/+2dC8PwGsEutjMzI1')
         ],
         [
             InlineKeyboardButton('⚙️ Help', callback_data='help'),
             InlineKeyboardButton('💙 About', callback_data='about')
         ],
         [
-            InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url='https://t.me/DvisDmBot')
+            InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url='https://t.me/Funnytamilan')
         ]
     ])
     
@@ -49,15 +49,15 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [
-                    InlineKeyboardButton('📢 Updates', url='https://t.me/net_pro_max'),
-                    InlineKeyboardButton('💬 Support', url='https://t.me/+cXIPgHSuJnxiNjU1')
+                    InlineKeyboardButton('📢 Updates', url='https://t.me/+z0nFJU_bEZ85YTFl'),
+                    InlineKeyboardButton('💬 Support', url='https://t.me/+2dC8PwGsEutjMzI1')
                 ],
                 [
                     InlineKeyboardButton('⚙️ Help', callback_data='help'),
                     InlineKeyboardButton('💙 About', callback_data='about')
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url='https://t.me/DvisDmBot')
+                    InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url='https://t.me/Funnytamilan')
                 ]
             ])
         )
@@ -149,3 +149,4 @@ async def cb_handler(client, query: CallbackQuery):
         except:
             await query.message.delete()
             await query.message.continue_propagation()
+
