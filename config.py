@@ -82,11 +82,15 @@ Use These Keywords To Setup Custom File Name
     
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
     
-<b>🛍 UPI ID:</b> <code>upi id</code> """
+🛍 𝚄𝙿𝙸 𝙸𝙳: thafiyaparveen47@okhdfcbank
+
+𝙿𝚕𝚎𝚊𝚜𝚎 𝙳𝚖 𝙼𝚎 𝙰𝚗𝚍 𝚃𝚛𝚢 𝚃𝚘 𝚂𝚎𝚗𝚍 𝙰 𝚂𝚌𝚛𝚎𝚎𝚗𝚜𝚑𝚘𝚝
+@Funnytamilan"""
     
     HELP_TXT = """<b>Hey</b> {}
     
 Here Is The Help For My Commands."""
+
 
 
 
